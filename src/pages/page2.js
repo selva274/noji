@@ -8,6 +8,6 @@ function Page2({changeUser}) {
        <button onClick={changeUser}>Change_User</button>
        <Page3/>
     </>
-  )
+  ) 
 }
 export default memo(Page2);
